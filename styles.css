@@ -1,0 +1,57 @@
+/* Styles for the collapsible elements */
+.collapsible, .collapsible-tool {
+    background-color: #777; /* Default color for file collapsibles */
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsible-tool {
+    background-color: #4CAF50; /* Different color for tool collapsibles */
+}
+
+.collapsible:hover, .collapsible-tool:hover {
+    background-color: #555; /* Hover effect */
+}
+
+.collapsible.active, .collapsible-tool.active {
+    background-color: #333; /* Active/selected effect */
+}
+
+/* Styles for the content inside collapsible elements */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/* Styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Additional styles (if needed) for the drop area */
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+span {
+    font-weight: bold; /* Makes the feed rate numbers bold */
+    padding: 2px; /* Adds spacing around the feed rate numbers */
+}

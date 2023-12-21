@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>G-Code Visualizer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="drop-area">
+        <p>Drag and drop G-code files here</p>
+    </div>
+    <div>
+        <input type="radio" id="usedTools" name="toolFilter" value="usedTools" checked>
+        <label for="usedTools">Only show used tools</label>
+      
+        <input type="radio" id="apex3RTools" name="toolFilter" value="apex3RTools">
+        <label for="apex3RTools">Show Apex 3R tools</label>
+      
+        <input type="radio" id="allTools" name="toolFilter" value="allTools">
+        <label for="allTools">Show T1-T100</label>
+      </div>
+      
+    <table id="summary-table">
+        <!-- Table headers and content will go here -->
+    </table>
+
+
+    <div id="details">
+        <!-- Collapsible details will go here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

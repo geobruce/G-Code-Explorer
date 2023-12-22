@@ -9,18 +9,30 @@
     text-align: left;
     outline: none;
     font-size: 15px;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .collapsible-tool {
     background-color: #4CAF50; /* Different color for tool collapsibles */
+
 }
 
-.collapsible:hover, .collapsible-tool:hover {
+.collapsible:hover {
     background-color: #555; /* Hover effect */
 }
+.collapsible-tool:hover {
+    background-color:#459b48; /* Hover effect */
+}
 
-.collapsible.active, .collapsible-tool.active {
+
+.collapsible.active {
     background-color: #333; /* Active/selected effect */
+
+}
+
+.collapsible-tool.active {
+    background-color: #136117; /* Active/selected effect */
+
 }
 
 /* Styles for the content inside collapsible elements */
@@ -34,6 +46,7 @@
 /* Styles for the table */
 table {
     width: 100%;
+    border: 1px solid black;
     border-collapse: collapse;
 }
 
@@ -41,6 +54,8 @@ th, td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 /* Additional styles (if needed) for the drop area */
@@ -54,4 +69,12 @@ th, td {
 span {
     font-weight: bold; /* Makes the feed rate numbers bold */
     padding: 2px; /* Adds spacing around the feed rate numbers */
+}
+hr {
+    clear: both;
+    visibility: hidden;
+  }
+
+.highlight {
+    background-color: rgb(255, 255, 182);
 }
